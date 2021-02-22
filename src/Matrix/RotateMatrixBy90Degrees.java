@@ -2,6 +2,8 @@ package Matrix;
 
 public class RotateMatrixBy90Degrees {
 
+    // rotate matrix 90 degrees anticlockwise
+
     public static void main(String[] args) {
         int mat[][] = {{1,2,3},{4,5,6},{7,8,9}};
 
