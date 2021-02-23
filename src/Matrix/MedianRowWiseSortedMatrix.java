@@ -27,7 +27,7 @@ public class MedianRowWiseSortedMatrix
         int desired = (r * c + 1) / 2; 
         while(min < max) 
         { 
-            int mid = min + (max - min) / 2; 
+            int mid = (max + min) / 2; 
             int place = 0; 
             int get = 0; 
               
