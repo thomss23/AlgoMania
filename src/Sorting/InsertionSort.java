@@ -10,7 +10,7 @@ public class InsertionSort {
     // We take elements from the unsorted partition and we insert them
     // in their correct location in the sorted partition
     // (basically moving all greater elements one position ahead
-    // until we find the location for our current element in the loop)
+    // until we find the location for our current element in the loop in the sorted partiton)
 
 
 
