@@ -51,7 +51,7 @@ public class DFSUndirectedGraph {
     
 
     
-    public void DFS(int vertex, boolean[] visited, ArrayList<Integer> result, ArrayList<ArrayList<Integer>> adj) {
+    public static void DFS(int vertex, boolean[] visited, ArrayList<Integer> result, ArrayList<ArrayList<Integer>> adj) {
         
         result.add(vertex);
         visited[vertex] = true;
