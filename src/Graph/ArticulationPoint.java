@@ -17,16 +17,16 @@ public class ArticulationPoint {
 
         private int V; 
      
-        private LinkedList<Integer> adj[]; 
+        private ArrayList<Integer>[] adj; 
         int time = 0; 
         static final int NIL = -1; 
     
         ArticulationPoint(int v) 
         { 
             V = v; 
-            adj = new LinkedList[v]; 
+            adj = new ArrayList[v]; 
             for (int i=0; i<v; ++i) 
-                adj[i] = new LinkedList(); 
+                adj[i] = new ArrayList<>(); 
         } 
     
         void addEdge(int v, int w) 
